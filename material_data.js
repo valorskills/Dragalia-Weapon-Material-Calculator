@@ -468,118 +468,118 @@ materials = [
     "Obtain": ["Myriage_Lake", "Rovetelle_Forest", "Wartarch_Ruins"],
     "Difficulty": ["Master / Expert / Standard", "Master / Expert / Standard", "Master / Expert / Standard"]
   },
+  // new materials added for new weapons
   {
+    "Id": "204001001",
+    "Name": "Solid Fungus",
+    "Description": "A fungus that grows on shrooms. It's as hard&lt;br/&gt;as rock, but can be processed to be made&lt;br/&gt;softer and easier to work with.",
+    "Obtain": ["Wandering_Shroom_Strike"],
+    "Difficulty": []
+  },
+  {
+    "Id": "204001002",
+    "Name": "Shiny Spore",
+    "Description": "A spore exhaled by shrooms as they approach death. It contains powerful mana.",
+    "Obtain": ["Wandering_Shroom_Strike"],
+    "Difficulty": []
+  },
+  {
+    "Id": "204003001",
+    "Name": "Steel Slab",
+    "Description": "A slab taken from a golem's body. Despite its ordinary appearance, it is a surprisingly weighty and resilient lump of metal.",
+    "Obtain": ["Steel_Golem_Strike", "Obsidian_Golem_Strike"],
+    "Difficulty": []
+  },
+  {
+    "Id": "204003002",
+    "Name": "Golem Core",
+    "Description": "A stone with runes carved upon it, found at the center of a golem. It's understood those runes bestow life, but all else is a mystery.",
+    "Obtain": ["Steel_Golem_Strike"],
+    "Difficulty": []
+  },
+  {
+    "Id": "204004001",
+    "Name": "Great Feather",
+    "Description": "One of Zephyr's feathers, filled with his mana. It's as light as it looks, but he can use mana to make them sharper and harder.",
+    "Obtain": ["Void_Zephyr_Strike"],
+    "Difficulty": []
+  },
+  {
+    "Id": "204004002",
+    "Name": "Zephyr Rune",
+    "Description": "A rune filled with Zephyr's mana. There are some who believe this is actually the source of his power.",
+    "Obtain": ["Void_Zephyr_Strike"],
+    "Difficulty": []
+  },
+  {
+    "Id": "204005001",
+    "Name": "Raging Fang",
+    "Description": "A fang from a manticore. Even after being separated from the manticore's body, it's still permeated with deadly mana.",
+    "Obtain": ["Raging_Manticore_Strike"],
+    "Difficulty": []
+  },
+  {
+    "Id": "204005002",
+    "Name": "Raging Tail",
+    "Description": "A manticore's tail. It's best handled with care, as some say it will launch attacks long after being separated from its body.",
+    "Obtain": ["Raging_Manticore_Strike"],
+    "Difficulty": []
+  }, 
+  // jtbib: adding more void items! 5/18/2019
+  {
+    "Id": "204006001",
+    "Name": "Old Cloth",
+    "Description": "A scrap torn from the cloth worn by a ghost. More than a little unsettling.",
+    "Obtain": ["Blazing_Ghost_Strike"],
+    "Difficulty": []
+  },
+  {
+    "Id": "204006002",
+    "Name": "Floating Red Cloth",
+    "Description": "A scrap torn from the cloth worn by a ghost. At night it floats in the air, perhaps due to the sinister mana of its former wearer.",
+    "Obtain": ["Blazing_Ghost_Strike"],
+    "Difficulty": []
+  },
+  {
+    "Id": "204006003",
+    "Name": "Otherworldly Lantern",
+    "Description": "A lantern with a ghost's flame trapped inside. On a quiet night, you can hear a faint, eerie laughter coming from within.",
+    "Obtain": ["Blazing_Ghost_Strike"],
+    "Difficulty": []
+  },
+  {
+    "Id": "204007001",
+    "Name": "Obsidian Slab",
+    "Description": "A hard, heavy slab taken from a golem's body. Resembles an ordinary lump of obsidian, but contains shadow mana.",
+    "Obtain": ["Obsidian_Golem_Strike"],
+    "Difficulty": []
+  },
+  {
+    "Id": "204007002",
+    "Name": "Dark Core",
+    "Description": "A stone with runes carved upon it, found at the center of a golem. The shadow mana it radiates is said to be what lets them move.",
+    "Obtain": ["Obsidian_Golem_Strike"],
+    "Difficulty": []
+  },
+  {
+    "Id": "204008001",
+    "Name": "Blazing Horn",
+    "Description": "Agni's sturdy thoracic horn, containing the vast supply of mana needed to call upon his swords of fire.",
+    "Obtain": ["Void_Agni_Strike"],
+    "Difficulty": []
+  },
+  {
+    "Id": "204008002",
+    "Name": "Blazing Ember",
+    "Description": "Said to be the source of Agni's power, this ember still retains some of his mana. Any fires it starts will spread insatiably.",
+    "Obtain": ["Void_Agni_Strike"],
+    "Difficulty": []
+  },
+    {
     "Id": "Icon_Resource_Rupies",
     "Name": "Rupies",
     "Description": "One of the ingame currencies.",
     "Obtain": ["Avenue_To_Fortune"],
     "Difficulty": []
-  },
-  // new materials added for new weapons
-  {
-    Id: "204001001",
-    Name: "Solid Fungus",
-    Description: "A fungus that grows on shrooms. It's as hard&lt;br/&gt;as rock, but can be processed to be made&lt;br/&gt;softer and easier to work with.",
-    Obtain: ["Wandering_Shroom_Strike"],
-    Difficulty: []
-  },
-  {
-    Id: "204001002",
-    Name: "Shiny Spore",
-    Description: "A spore exhaled by shrooms as they approach death. It contains powerful mana.",
-    Obtain: ["Wandering_Shroom_Strike"],
-    Difficulty: []
-  },
-  {
-    Id: "204003001",
-    Name: "Steel Slab",
-    Description: "A slab taken from a golem's body. Despite its ordinary appearance, it is a surprisingly weighty and resilient lump of metal.",
-    Obtain: ["Steel_Golem_Strike", "Obsidian_Golem_Strike"],
-    Difficulty: []
-  },
-  {
-    Id: "204003002",
-    Name: "Golem Core",
-    Description: "A stone with runes carved upon it, found at the center of a golem. It's understood those runes bestow life, but all else is a mystery.",
-    Obtain: ["Steel_Golem_Strike"],
-    Difficulty: []
-  },
-  {
-    Id: "204004001",
-    Name: "Great Feather",
-    Description: "One of Zephyr's feathers, filled with his mana. It's as light as it looks, but he can use mana to make them sharper and harder.",
-    Obtain: ["Void_Zephyr_Strike"],
-    Difficulty: []
-  },
-  {
-    Id: "204004002",
-    Name: "Zephyr Rune",
-    Description: "A rune filled with Zephyr's mana. There are some who believe this is actually the source of his power.",
-    Obtain: ["Void_Zephyr_Strike"],
-    Difficulty: []
-  },
-  {
-    Id: "204005001",
-    Name: "Raging Fang",
-    Description: "A fang from a manticore. Even after being separated from the manticore's body, it's still permeated with deadly mana.",
-    Obtain: ["Raging_Manticore_Strike"],
-    Difficulty: []
-  },
-  {
-    Id: "204005002",
-    Name: "Raging Tail",
-    Description: "A manticore's tail. It's best handled with care, as some say it will launch attacks long after being separated from its body.",
-    Obtain: ["Raging_Manticore_Strike"],
-    Difficulty: []
-  }, 
-  // jtbib: adding more void items! 5/18/2019
-  {
-    Id: "204006001",
-    Name: "Old Cloth",
-    Description: "A scrap torn from the cloth worn by a ghost. More than a little unsettling.",
-    Obtain: ["Blazing_Ghost_Strike"],
-    Difficulty: []
-  },
-  {
-    Id: "204006002",
-    Name: "Floating Red Cloth",
-    Description: "A scrap torn from the cloth worn by a ghost. At night it floats in the air, perhaps due to the sinister mana of its former wearer.",
-    Obtain: ["Blazing_Ghost_Strike"],
-    Difficulty: []
-  },
-  {
-    Id: "204006003",
-    Name: "Otherworldly Lantern",
-    Description: "A lantern with a ghost's flame trapped inside. On a quiet night, you can hear a faint, eerie laughter coming from within.",
-    Obtain: ["Blazing_Ghost_Strike"],
-    Difficulty: []
-  },
-  {
-    Id: "204007001",
-    Name: "Obsidian Slab",
-    Description: "A hard, heavy slab taken from a golem's body. Resembles an ordinary lump of obsidian, but contains shadow mana.",
-    Obtain: ["Obsidian_Golem_Strike"],
-    Difficulty: []
-  },
-  {
-    Id: "204007002",
-    Name: "Dark Core",
-    Description: "A stone with runes carved upon it, found at the center of a golem. The shadow mana it radiates is said to be what lets them move.",
-    Obtain: ["Obsidian_Golem_Strike"],
-    Difficulty: []
-  },
-  {
-    Id: "204008001",
-    Name: "Blazing Horn",
-    Description: "Agni's sturdy thoracic horn, containing the vast supply of mana needed to call upon his swords of fire.",
-    Obtain: ["Void_Agni_Strike"],
-    Difficulty: []
-  },
-  {
-    Id: "204008002",
-    Name: "Blazing Ember",
-    Description: "Said to be the source of Agni's power, this ember still retains some of his mana. Any fires it starts will spread insatiably.",
-    Obtain: ["Void_Agni_Strike"],
-    Difficulty: []
   },
 ]
