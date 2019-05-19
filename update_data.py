@@ -17,13 +17,15 @@ if LOAD_JS_DATA:
     WEAPON_DATA_OUTPUT="weapon_data.js"
     WEAPON_DATA_VAR="weapons"
 
-    MATERIAL_DATA_URL="https://dragalialost.gamepedia.com/api.php?action=cargoquery&format=json&limit=max&tables=Materials&fields=Id%2C+Name%2C+Obtain+"
-    MATERIAL_DATA_OUTPUT="material_data.js"
-    MATERIAL_DATA_VAR="materials"
+    # MATERIAL_DATA_URL="https://dragalialost.gamepedia.com/api.php?action=cargoquery&format=json&limit=max&tables=Materials&fields=Id%2C+Name%2C+Obtain+"
+    # MATERIAL_DATA_OUTPUT="material_data.js"
+    # MATERIAL_DATA_VAR="materials"
+    # better url: https://dragalialost.gamepedia.com/api.php?action=cargoquery&format=json&limit=max&tables=Materials&fields=Id%2C+Name%2C+Description
 
     JS_PARAMS=[
     (WEAPON_DATA_URL, WEAPON_DATA_OUTPUT, WEAPON_DATA_VAR),
-    (MATERIAL_DATA_URL, MATERIAL_DATA_OUTPUT, MATERIAL_DATA_VAR)
+    # edit 5/18/2019 don't use these as it causes other issues. it's tough to acquire the required images for source quests.
+    #(MATERIAL_DATA_URL, MATERIAL_DATA_OUTPUT, MATERIAL_DATA_VAR)
     ]
 
     for (url, outputfile, var) in JS_PARAMS:
