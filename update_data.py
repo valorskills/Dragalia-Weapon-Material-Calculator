@@ -6,10 +6,12 @@ from pprint import pformat
 import requests
 import urllib.request
 import time
+import re
 
 LOAD_JS_DATA=False
-LOAD_IMGS=False # NOTE: these are not optimized and might download more than necessary!
-
+LOAD_WEAPON_IMGS=False # NOTE: these are not optimized and might download more than necessary!
+LOAD_MAT_IMGS=True
+THROTTLE_DELAY=0.5 # seconds delay between downloads
 
 
 if LOAD_JS_DATA:
@@ -38,36 +40,64 @@ if LOAD_JS_DATA:
             f.write('{} = {};'.format(var, data_str))
 
 
-if LOAD_IMGS:
-    THROTTLE_DELAY=1 # 1s delay between downloads
+if LOAD_WEAPON_IMGS:
 
     # jtbib: added an end for this which corresponds to the first non-weapon image I found. it'll download one extra but that's ok.
     WEAPON_IMG_URL="https://dragalialost.gamepedia.com/api.php?action=query&format=json&prop=&list=allimages&aifrom=301001_01_19901.png&aito=3100001.png&aiprop=timestamp%7Curl&ailimit=max"
     WEAPON_IMG_DIR="images/weapons"
 
+
+
+    json = requests.get(WEAPON_IMG_URL).json()
+    for img_json in json['query']['allimages']:
+        filename = '{}/{}'.format(WEAPON_IMG_DIR, img_json['name'])
+        img_url = img_json['url']
+        if os.path.isfile(filename):
+            print("Skipping file: " + filename)
+        else:
+            print("Downloading file: " + filename)
+            urllib.request.urlretrieve(img_url, filename)
+            time.sleep(THROTTLE_DELAY) # to avoid overloading gamepedia
+
+
+if LOAD_MAT_IMGS:
     # jtbib: didn't modify this url, but it does stop at an HMS portrati which definitely isn't required.
     # the start range is also not required (sunstones). I'm not actually sure how the existing images were chosen if not manually.
     # either way, this is generally not required for download
-    MATERIAL_IMG_URL="https://dragalialost.gamepedia.com/api.php?action=query&format=json&prop=&list=allimages&aiprop=timestamp%7Curl&ailimit=max&aifrom=111001001.png&aito=210001_01.png&*"
+    MATERIAL_IMG_URL="https://dragalialost.gamepedia.com/api.php?action=query&format=json&prop=&list=allimages&aiprop=timestamp%7Curl&ailimit=max&aifrom={}&aito={}&*"
     MATERIAL_IMG_DIR="images/materials"
 
-    IMG_PARAMS=[
-    (WEAPON_IMG_URL, WEAPON_IMG_DIR),
-    #(MATERIAL_IMG_URL, MATERIAL_IMG_DIR)
-    ]
-    print("Note: material image downloads are disabled/commented out due to inefficient query")
-
-    for imgs_url, imgs_dir in IMG_PARAMS:
-        json = requests.get(imgs_url).json()
-        for img_json in json['query']['allimages']:
-            filename = '{}/{}'.format(imgs_dir, img_json['name'])
+    BASE_IMG_FILE_URL="https://dragalialost.gamepedia.com/File:{}"
+    # https://dragalialost.gamepedia.com/api.php?action=query&format=json&prop=&list=allimages&aiprop=timestamp%7Curl&ailimit=max&aifrom=111001001.png&aito=210001_01.png&*
+    # json = requests.get(MATERIAL_IMG_URL).json()['query']['allimages']
+    print("NVM DO THIS MANUALLY")
+    regex = re.compile('\s*"Id":\s*"(\d+)",.*')
+    missing_imgs=[]
+    with open('material_data.js') as f:
+        for line in f:
+            match = regex.search(line)
+            if match:
+                target_img='{}.png'.format(match.group(1))
+                target_path='{}/{}'.format(MATERIAL_IMG_DIR, target_img)
+                if os.path.isfile(target_path):
+                    print("Skipping file: " + target_path)
+                else:
+                    missing_imgs += [target_img]
+                    # print("Downloading file: " + target_path)
+                    # target_url=BASE_IMG_FILE_URL.format(target_img)
+                    # urllib.request.urlretrieve(target_url, target_path)
+                    # time.sleep(THROTTLE_DELAY) # to avoid overloading gamepedia
+    
+    search_url = MATERIAL_IMG_URL.format(min(missing_imgs), max(missing_imgs))
+    json = requests.get(search_url).json()
+    for img_json in json['query']['allimages']:
+        name = img_json['name']
+        if name in missing_imgs:
+            filename = '{}/{}'.format(MATERIAL_IMG_DIR, name)
             img_url = img_json['url']
-            if os.path.isfile(filename):
-                print("Skipping file: " + filename)
-            else:
-                print("Downloading file: " + filename)
-                urllib.request.urlretrieve(img_url, filename)
-                time.sleep(THROTTLE_DELAY) # to avoid overloading gamepedia
+            print("Downloading file: " + filename)
+            urllib.request.urlretrieve(img_url, filename)
+            time.sleep(THROTTLE_DELAY) # to avoid overloading gamepedia
 
 
 
