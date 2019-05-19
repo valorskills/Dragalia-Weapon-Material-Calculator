@@ -12,13 +12,14 @@ LOAD_WEAPON_DATA=True
 LOAD_WEAPON_IMGS=False # NOTE: these are not optimized and might download more than necessary!
 LOAD_MISSING_MAT_IMGS=True
 THROTTLE_DELAY=0.5 # seconds delay between downloads
-
+# VERY USEFUL: https://dragalialost.gamepedia.com/Special:CargoTables
 
 if LOAD_WEAPON_DATA:
     print("Loading weapon data")
     # Note: previously had rarity > 2, but you still need that data for some void weapons '&where=Rarity%3E2'
     # adding filter to index.html instead
-    WEAPON_DATA_URL="https://dragalialost.gamepedia.com/api.php?action=cargoquery&format=json&limit=max&tables=Weapons&fields=Id%2C+BaseId%2C+FormId%2C+WeaponName%2C+Type%2C+Rarity%2C+ElementalType%2C+MinHp%2C+MaxHp%2C+MinAtk%2C+MaxAtk%2C+VariationId%2C+DecBaseId%2C+DecVariationId%2C+BulletBaseId%2C+BulletVariationId%2C+Skill%2C+SkillName%2C+SkillDesc%2C+IsPlayable%2C+FlavorText%2C+SellCoin%2C+SellDewPoint%2C+CraftNodeId%2C+ParentCraftNodeId%2C+CraftGroupId%2C+FortCraftLevel%2C+AssembleCoin%2C+DisassembleCoin%2C+DisassembleCost%2C+MainWeaponId%2C+MainWeaponQuantity%2C+CraftMaterialType1%2C+CraftMaterial1%2C+CraftMaterialQuantity1%2C+CraftMaterialType2%2C+CraftMaterial2%2C+CraftMaterialQuantity2%2C+CraftMaterialType3%2C+CraftMaterial3%2C+CraftMaterialQuantity3%2C+CraftMaterialType4%2C+CraftMaterial4%2C+CraftMaterialQuantity4%2C+CraftMaterialType5%2C+CraftMaterial5%2C+CraftMaterialQuantity5"
+    # extra filter for crafting-only weapons... doesn't work in python for some reason: '&where=Obtain%20LIKE%20%27%Crafting%27'
+    WEAPON_DATA_URL="https://dragalialost.gamepedia.com/api.php?action=cargoquery&format=json&limit=max&tables=Weapons&fields=Id%2C+BaseId%2C+FormId%2C+WeaponName%2C+Type%2C+Rarity%2C+ElementalType%2C+MinHp%2C+MaxHp%2C+MinAtk%2C+MaxAtk%2C+VariationId%2C+DecBaseId%2C+DecVariationId%2C+BulletBaseId%2C+BulletVariationId%2C+Skill%2C+SkillName%2C+SkillDesc%2C+IsPlayable%2C+FlavorText%2C+SellCoin%2C+SellDewPoint%2C+CraftNodeId%2C+ParentCraftNodeId%2C+CraftGroupId%2C+FortCraftLevel%2C+AssembleCoin%2C+DisassembleCoin%2C+DisassembleCost%2C+MainWeaponId%2C+MainWeaponQuantity%2C+CraftMaterialType1%2C+CraftMaterial1%2C+CraftMaterialQuantity1%2C+CraftMaterialType2%2C+CraftMaterial2%2C+CraftMaterialQuantity2%2C+CraftMaterialType3%2C+CraftMaterial3%2C+CraftMaterialQuantity3%2C+CraftMaterialType4%2C+CraftMaterial4%2C+CraftMaterialQuantity4%2C+CraftMaterialType5%2C+CraftMaterial5%2C+CraftMaterialQuantity5%2C+Abilities11%2C+Abilities21%2C+Obtain"
     WEAPON_DATA_OUTPUT="weapon_data.js"
     WEAPON_DATA_VAR="weapons"
 
@@ -36,7 +37,8 @@ if LOAD_WEAPON_DATA:
     for (url, outputfile, var) in JS_PARAMS:
         with open(outputfile, 'w+') as f:
             json = requests.get(url).json()
-            data = [x["title"] for x in json["cargoquery"]]
+            # hack: filter out crafting-only. For some reason it doesn't work if I request here, but the link above does work...
+            data = [x["title"] for x in json["cargoquery"]] # if "Crafting" in x["title"]["Obtain"]]
             data_str = str(data) 
             # jtbib note: pformat will break up long strings (flavortext) by default :( width param doesn't help
             # data_str = pformat(data, width=sys.maxsize)

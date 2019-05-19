@@ -101,12 +101,15 @@
                     </thead>
                     <tbody>
                         <tr v-for="weapon in weapon_list.filter(w => w.Rarity >= 3)">
-                            <td>
+                            <td v-if="weapon.Obtain == 'Crafting'">
                                 <button class="ui button" style="margin: 2px" v-on:click="addWeaponToRepository(weapon, 1)">Add One</button>
                                 <br>
                                 <button class="ui button" style="margin: 2px" v-on:click="addAllPrereqWeapons(weapon)">Add All Prereq</button>
                                 <br>
                                 <button class="ui button" style="margin: 2px" v-on:click="addMaxUnbind(weapon)">Add Max Unbind</button>
+                            </td>
+                            <td v-else>
+                                Not craftable!
                             </td>
                             <td>
                                 <img :name="weapon.WeaponName" style="width: 70px; height: 70px" :src="'images/weapons/' + weapon.BaseId + '_01_' + weapon.FormId + '.png'">
