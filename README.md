@@ -2,6 +2,7 @@
 
 This is a program to calculate how much material you need to make your desired weapons.
 
+DISCLAIMER: I (jtbib) forked this from yujinred's original implementation and used the provided APIs (with minor modifications), as noted in update_data.py. This is left open source if anybody wants to fork their own copy, issue pull requests, take over the project, etc.
 
 ### Source
 
@@ -9,6 +10,6 @@ weapon_data.js - pulled from https://dragalialost.gamepedia.com/api.php?action=c
 
 material_data.js - pulled from https://dragalialost.gamepedia.com/api.php?action=cargoquery&format=json&limit=max&tables=Materials&fields=Id%2C+Name%2C+Obtain+
 
-Weapon Image data - pulled from https://dragalialost.gamepedia.com/api.php?action=query&format=json&prop=&list=allimages&aifrom=301001_01_19901.png&aiprop=timestamp%7Curl&ailimit=max
+Weapon Image data - pulled from https://dragalialost.gamepedia.com/api.php?action=query&format=json&prop=&list=allimages&aifrom=301001_01_19901.png&aito=3100001.png&aiprop=timestamp%7Curl&ailimit=max
 
 Material Image data - pulled from https://dragalialost.gamepedia.com/api.php?action=query&format=json&prop=&list=allimages&aiprop=timestamp%7Curl&ailimit=max&aifrom=111001001.png&aito=210001_01.png&*
