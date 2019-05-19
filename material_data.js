@@ -479,56 +479,56 @@ materials = [
   {
     Id: "204001001",
     Name: "Solid Fungus",
-    Description: "",
+    Description: "A fungus that grows on shrooms. It's as hard&lt;br/&gt;as rock, but can be processed to be made&lt;br/&gt;softer and easier to work with.",
     Obtain: ["Wandering_Shroom_Strike"],
     Difficulty: []
   },
   {
     Id: "204001002",
     Name: "Shiny Spore",
-    Description: "",
+    Description: "A spore exhaled by shrooms as they approach death. It contains powerful mana.",
     Obtain: ["Wandering_Shroom_Strike"],
     Difficulty: []
   },
   {
     Id: "204003001",
     Name: "Steel Slab",
-    Description: "",
+    Description: "A slab taken from a golem's body. Despite its ordinary appearance, it is a surprisingly weighty and resilient lump of metal.",
     Obtain: ["Steel_Golem_Strike", "Obsidian_Golem_Strike"],
     Difficulty: []
   },
   {
     Id: "204003002",
     Name: "Golem Core",
-    Description: "",
+    Description: "A stone with runes carved upon it, found at the center of a golem. It's understood those runes bestow life, but all else is a mystery.",
     Obtain: ["Steel_Golem_Strike"],
     Difficulty: []
   },
   {
     Id: "204004001",
     Name: "Great Feather",
-    Description: "",
+    Description: "One of Zephyr's feathers, filled with his mana. It's as light as it looks, but he can use mana to make them sharper and harder.",
     Obtain: ["Void_Zephyr_Strike"],
     Difficulty: []
   },
   {
     Id: "204004002",
     Name: "Zephyr Rune",
-    Description: "",
+    Description: "A rune filled with Zephyr's mana. There are some who believe this is actually the source of his power.",
     Obtain: ["Void_Zephyr_Strike"],
     Difficulty: []
   },
   {
     Id: "204005001",
     Name: "Raging Fang",
-    Description: "",
+    Description: "A fang from a manticore. Even after being separated from the manticore's body, it's still permeated with deadly mana.",
     Obtain: ["Raging_Manticore_Strike"],
     Difficulty: []
   },
   {
     Id: "204005002",
     Name: "Raging Tail",
-    Description: "",
+    Description: "A manticore's tail. It's best handled with care, as some say it will launch attacks long after being separated from its body.",
     Obtain: ["Raging_Manticore_Strike"],
     Difficulty: []
   }, 
