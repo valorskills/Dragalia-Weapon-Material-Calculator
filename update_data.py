@@ -10,14 +10,15 @@ import re
 
 LOAD_WEAPON_DATA=True
 LOAD_WEAPON_IMGS=False # NOTE: these are not optimized and might download more than necessary!
-LOAD_MAT_IMGS=True
+LOAD_MISSING_MAT_IMGS=True
 THROTTLE_DELAY=0.5 # seconds delay between downloads
 
 
 if LOAD_WEAPON_DATA:
     print("Loading weapon data")
-    # Note: updated to include rarity > 2
-    WEAPON_DATA_URL="https://dragalialost.gamepedia.com/api.php?action=cargoquery&format=json&limit=max&tables=Weapons&where=Rarity%3E2&fields=Id%2C+BaseId%2C+FormId%2C+WeaponName%2C+Type%2C+Rarity%2C+ElementalType%2C+MinHp%2C+MaxHp%2C+MinAtk%2C+MaxAtk%2C+VariationId%2C+DecBaseId%2C+DecVariationId%2C+BulletBaseId%2C+BulletVariationId%2C+Skill%2C+SkillName%2C+SkillDesc%2C+IsPlayable%2C+FlavorText%2C+SellCoin%2C+SellDewPoint%2C+CraftNodeId%2C+ParentCraftNodeId%2C+CraftGroupId%2C+FortCraftLevel%2C+AssembleCoin%2C+DisassembleCoin%2C+DisassembleCost%2C+MainWeaponId%2C+MainWeaponQuantity%2C+CraftMaterialType1%2C+CraftMaterial1%2C+CraftMaterialQuantity1%2C+CraftMaterialType2%2C+CraftMaterial2%2C+CraftMaterialQuantity2%2C+CraftMaterialType3%2C+CraftMaterial3%2C+CraftMaterialQuantity3%2C+CraftMaterialType4%2C+CraftMaterial4%2C+CraftMaterialQuantity4%2C+CraftMaterialType5%2C+CraftMaterial5%2C+CraftMaterialQuantity5"
+    # Note: previously had rarity > 2, but you still need that data for some void weapons '&where=Rarity%3E2'
+    # adding filter to index.html instead
+    WEAPON_DATA_URL="https://dragalialost.gamepedia.com/api.php?action=cargoquery&format=json&limit=max&tables=Weapons&fields=Id%2C+BaseId%2C+FormId%2C+WeaponName%2C+Type%2C+Rarity%2C+ElementalType%2C+MinHp%2C+MaxHp%2C+MinAtk%2C+MaxAtk%2C+VariationId%2C+DecBaseId%2C+DecVariationId%2C+BulletBaseId%2C+BulletVariationId%2C+Skill%2C+SkillName%2C+SkillDesc%2C+IsPlayable%2C+FlavorText%2C+SellCoin%2C+SellDewPoint%2C+CraftNodeId%2C+ParentCraftNodeId%2C+CraftGroupId%2C+FortCraftLevel%2C+AssembleCoin%2C+DisassembleCoin%2C+DisassembleCost%2C+MainWeaponId%2C+MainWeaponQuantity%2C+CraftMaterialType1%2C+CraftMaterial1%2C+CraftMaterialQuantity1%2C+CraftMaterialType2%2C+CraftMaterial2%2C+CraftMaterialQuantity2%2C+CraftMaterialType3%2C+CraftMaterial3%2C+CraftMaterialQuantity3%2C+CraftMaterialType4%2C+CraftMaterial4%2C+CraftMaterialQuantity4%2C+CraftMaterialType5%2C+CraftMaterial5%2C+CraftMaterialQuantity5"
     WEAPON_DATA_OUTPUT="weapon_data.js"
     WEAPON_DATA_VAR="weapons"
 
@@ -63,7 +64,7 @@ if LOAD_WEAPON_IMGS:
             time.sleep(THROTTLE_DELAY) # to avoid overloading gamepedia
 
 
-if LOAD_MAT_IMGS:
+if LOAD_MISSING_MAT_IMGS:
     print("Loading material images")
     # jtbib: didn't modify this url, but it does stop at an HMS portrati which definitely isn't required.
     # the start range is also not required (sunstones). I'm not actually sure how the existing images were chosen if not manually.

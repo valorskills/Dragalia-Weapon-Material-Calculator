@@ -527,6 +527,20 @@ materials = [
   }, 
   // jtbib: adding more void items! 5/18/2019
   {
+    "Id": "204002001",
+    "Name": "Goblin Thread",
+    "Description": "A thread popular with goblins. It's made from the hair of fiends, and naturally contains mana.",
+    "Obtain": ["Frost_Hermit_Strike"],
+    "Difficulty": []
+  },
+  {
+    "Id": "204002002",
+    "Name": "Aromatic Wood",
+    "Description": "Wood with an aroma that goblins love. It contains mana, but was cut from an ordinary tree. How it's crafted is a mystery.",
+    "Obtain": ["Frost_Hermit_Strike"],
+    "Difficulty": []
+  },
+  {
     "Id": "204006001",
     "Name": "Old Cloth",
     "Description": "A scrap torn from the cloth worn by a ghost. More than a little unsettling.",

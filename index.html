@@ -100,7 +100,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr v-for="weapon in weapon_list">
+                        <tr v-for="weapon in weapon_list.filter(w => w.Rarity >= 3)">
                             <td>
                                 <button class="ui button" style="margin: 2px" v-on:click="addWeaponToRepository(weapon, 1)">Add One</button>
                                 <br>
@@ -324,13 +324,15 @@
                 this.all_materials[index].quantity -= amount;
             },
             addMaterial: function (materialName, quantity) {
-                if (materialName === "0") return;
+                // jtbib: add blank materialname check
+                if (materialName === "" || materialName === "0") return;
                 var index = this.findArrayIndexBasedOnAttribute(this.all_materials, "Name", materialName);
                 if (index === -1) console.log("cannot find material " + materialName);
                 this.all_materials[index].quantity += quantity;
             },
             removeMaterial: function (materialName, quantity) {
-                if (materialName === "0") return;
+                // jtbib: add blank materialname check
+                if (materialName === "" || materialName === "0") return;
                 var index = this.findArrayIndexBasedOnAttribute(this.all_materials, "Name", materialName);
                 if (index === -1) console.log("cannot find material " + materialName);
                 this.all_materials[index].quantity -= quantity;
