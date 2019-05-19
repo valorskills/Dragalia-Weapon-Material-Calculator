@@ -195,7 +195,7 @@
                             <div v-if="showMaterialLocation">
                                 <div v-for="(quest, index) in material.Obtain" style="position: relative; text-align: center; color: white; text-weight: bolder;">
                                     <img v-if="quest != 'Events'" :name="quest" style="width: 525px; height: 123px" :src="'images/quests/' + quest + '.png'">
-                                    <div v-if="material.Difficulty != ''" class="bottom-right" style="position: absolute; bottom: 8px; right: 30px; padding: 10px; background: rgba(0, 0, 0, 0.7);">
+                                    <div v-if="material.Difficulty != '' && material.Difficulty.length > index" class="bottom-right" style="position: absolute; bottom: 8px; right: 30px; padding: 10px; background: rgba(0, 0, 0, 0.7);">
                                         {{material.Difficulty[index]}}
                                     </div>
                                     <div v-else></div>

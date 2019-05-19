@@ -402,8 +402,8 @@ materials = [
     "Id": "202004003",
     "Name": "Crimson Core",
     "Description": "A crystal dyed the color of blood.",
-    "Obtain": ["Dragon_Trials"],
-    "Difficulty": ["Master"]
+    "Obtain": ["Dragon_Trials", "Advanced_Dragon_Trials"],
+    "Difficulty": ["Master", ""]
   },
   {
     "Id": "202004004",
