@@ -1,1 +1,585 @@
-materials = [{'Id': '101001001', 'Name': 'Bronze Crystal', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Avenue to Power]]\n* [[Events]]\n* [[Quests]]'}, {'Id': '101001002', 'Name': 'Silver Crystal', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Avenue to Power]]\n* [[Events]]\n* [[Quests]]\n* [[Item Summoning]]'}, {'Id': '101001003', 'Name': 'Gold Crystal', 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Avenue to Power]] (Master / Expert / Standard)\n* [[Events]]\n* [[Endeavors#Daily Endeavors|Daily Endeavors]]\n* [[Item Summoning]]\n* [[Shop#Upgrade Essentials 2|Upgrade Essentials]]\n* [[Endeavors#Story (Normal) Endeavor Pack|Story (Normal) Endeavor Pack]]\n* [[Endeavors#Adventurer Upgrade Endeavor Pack|Adventurer Upgrade Endeavor Pack]]\n* [[Shop#Starter Packs|Beginner's Pack]]\n* [[Shop#Weekly|Adventurer's Boon Pack]]"}, {'Id': '102001001', 'Name': 'Dragonfruit', 'Obtain': "* [[Event Quests#Dragon Trials|Dragon Trials]]\n* [[Events]]\n* [[Dragontree]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]"}, {'Id': '102001002', 'Name': 'Ripe Dragonfruit', 'Obtain': "* [[Event Quests#Dragon Trials|Dragon Trials]]\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragontree]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]"}, {'Id': '102001003', 'Name': 'Succulent Dragonfruit', 'Obtain': "* [[Events]]\n* [[Item Summoning]]\n* [[Dragontree]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Upgrade Essentials|Upgrade Essentials]]\n* [[Shop#Starter Packs|Starter Packs]]\n* [[Shop#Endeavor_Packs|Endeavor Packs]]"}, {'Id': '103001001', 'Name': 'Bronze Whetstone', 'Obtain': '* [[Event Quests#Imperial Onslaught|The Imperial Onslaught]]\n* [[Events]]'}, {'Id': '103001002', 'Name': 'Silver Whetstone', 'Obtain': '* [[Event Quests#Imperial Onslaught|The Imperial Onslaught]]\n* [[Events]]\n* [[Item Summoning]]'}, {'Id': '103001003', 'Name': 'Gold Whetstone', 'Obtain': "* [[Event Quests#Imperial Onslaught|The Imperial Onslaught]] (Master / Expert / Standard)\n* [[Events]]\n* [[Endeavors#Daily Endeavors|Daily Endeavors]]\n* [[Item Summoning]]\n* [[Shop|Upgrade Essentials]]\n* [[Endeavors#Story (Normal) Endeavor Pack|Story (Normal) Endeavor Pack]]\n* [[Endeavors#Weapon Upgrade Endeavor Pack|Weapon Upgrade Endeavor Pack]]\n* [[Shop#Starter Packs|Beginner's Pack]]\n* [[Shop#Weekly|Equipment Booster Pack]]"}, {'Id': '104001001', 'Name': 'Rainbow Orb', 'Obtain': '* [[Event Quests#Elemental Ruins|Elemental Ruins]] (Expert)\n* [[Item Summoning]]'}, {'Id': '104001011', 'Name': 'Flame Orb', 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Flamehowl Ruins]]\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104001012', 'Name': 'Blaze Orb', 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Flamehowl Ruins]]\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104001013', 'Name': 'Inferno Orb', 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Flamehowl Ruins]] (Expert / Standard)\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104001021', 'Name': 'Water Orb', 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[Waterscour Ruins]]\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104001022', 'Name': 'Stream Orb', 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[Waterscour Ruins]]\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104001023', 'Name': 'Deluge Orb', 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[Waterscour Ruins]] (Expert / Standard)\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104001031', 'Name': 'Wind Orb', 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[Windmaul Ruins]]\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104001032', 'Name': 'Storm Orb', 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[Windmaul Ruins]]\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104001033', 'Name': 'Maelstrom Orb', 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[Windmaul Ruins]] (Expert / Standard)\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104001041', 'Name': 'Light Orb', 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Avenue to Fortune]]\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Lightsunder Ruins]]\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104001042', 'Name': 'Radiance Orb', 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Lightsunder Ruins]]\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104001043', 'Name': 'Refulgence Orb', 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Lightsunder Ruins]] (Expert / Standard)\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104001051', 'Name': 'Shadow Orb', 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Shadowsteep Ruins]]\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104001052', 'Name': 'Nightfall Orb', 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Shadowsteep Ruins]]\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104001053', 'Name': 'Nether Orb', 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Shadowsteep Ruins]] (Expert / Standard)\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104002011', 'Name': "Flamewyrm's Scale", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Brunhilda's Trial]]\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104002012', 'Name': "Flamewyrm's Scaldscale", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Brunhilda's Trial]] (Master / Expert)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[High Brunhilda's Trial]]\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104002021', 'Name': "Waterwyrm's Scale", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[Mercury's Trial]]\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104002022', 'Name': "Waterwyrm's Glistscale", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[Mercury's Trial]] (Master / Expert)\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104002031', 'Name': "Windwyrm's Scale", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[Midgardsormr's Trial]]\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104002032', 'Name': "Windwyrm's Squallscale", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[Midgardsormr's Trial]] (Master / Expert)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[High Midgardsormr's Trial]]&lt;br&gt;\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104002041', 'Name': "Lightwyrm's Scale", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Jupiter's Trial]]\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104002042', 'Name': "Lightwyrm's Glowscale", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Jupiter's Trial]] (Master / Expert)\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104002051', 'Name': "Shadowwyrm's Scale", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Zodiark's Trial]]\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104002052', 'Name': "Shadowwyrm's Darkscale", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Zodiark's Trial]] (Master / Expert)\n* [[Events]]\n* [[Item Summoning]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Shop#Treasure Trade|Treasure Trade]]"}, {'Id': '104003001', 'Name': "Knight's Testament", 'Obtain': '* [[Events]]\n* [[Shop#Void Battles|Void Battles Treasure Trade]]'}, {'Id': '104003002', 'Name': "Champion's Testament", 'Obtain': '* [[Events]]\n* [[Shop#Upgrade Essentials#Monthly|Unbind Pack (Mana Circles)]]\n* [[Shop#Void Battles|Void Battles Treasure Trade]]'}, {'Id': '111001001', 'Name': 'Moonlight Stone', 'Obtain': '* [[Endeavors#Dragon Trial Endeavor Pack|Dragon Trial Endeavor Pack]]\n* [[Shop#Void Battles|Void Battles Treasure Trade]]'}, {'Id': '111002001', 'Name': 'Sunlight Stone', 'Obtain': '* [[Shop#Treasure_Trade_2|Standard Treasure Trade]]\n* [[Endeavors#Dragon Trial Endeavor Pack|Dragon Trial Endeavor Pack]]\n* [[Shop#Upgrade Essentials#Monthly|Unbind Pack (Dragons)]]'}, {'Id': '112001001', 'Name': 'Steel Brick', 'Obtain': '* [[Endeavors#Weapon Upgrade Endeavor Pack|Weapon Upgrade Endeavor Pack]]\n* [[Shop#Void Battles|Void Battles Treasure Trade]]'}, {'Id': '112002001', 'Name': 'Damascus Ingot', 'Obtain': '* [[Events]]\n* [[Shop#Treasure_Trade_2|Standard Treasure Trade]]\n* [[Endeavors#Weapon Upgrade Endeavor Pack|Weapon Upgrade Endeavor Pack]]\n* [[Shop#Upgrade Essentials#Monthly|Unbind Pack (Weapons)]]'}, {'Id': '113001001', 'Name': 'Holy Water', 'Obtain': '* [[Events]]'}, {'Id': '113001002', 'Name': 'Blessed Water', 'Obtain': '* [[Events]]\n* [[Endeavors#Daily Endeavors|Daily Endeavors]]\n* [[Item Summoning]]\n* [[Shop#UpgradeEssentials|Upgrade Essentials]]'}, {'Id': '113001003', 'Name': 'Consecrated Water', 'Obtain': "* [[Events]]\n* [[Item Summoning]]\n* [[Shop#Upgrade Essentials|Upgrade Essentials]]\n* [[Endeavors#Story (Hard) Endeavor Pack|Story (Hard) Endeavor Pack]]\n* [[Shop#Starter Packs|Beginner's Pack]]\n* [[Shop#Weekly|Equipment Booster Pack]]"}, {'Id': '114001001', 'Name': 'Silver Key', 'Obtain': '* [[Events]]\n* [[Endeavors#Story (Hard) Endeavor Pack|Story (Hard) Endeavor Pack]]'}, {'Id': '114002001', 'Name': 'Golden Key', 'Obtain': '* [[Events]]\n* [[Shop#Treasure_Trade_2|Standard Treasure Trade]]\n* [[Endeavors#Story (Hard) Endeavor Pack|Story (Hard) Endeavor Pack]]\n* [[Shop#Upgrade Essentials#Monthly|Unbind Pack (Wyrmprints)]]'}, {'Id': '201002011', 'Name': "Flamewyrm's Sphere", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Brunhilda's Trial]]"}, {'Id': '201002012', 'Name': "Flamewyrm's Greatsphere", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[High Brunhilda's Trial]]"}, {'Id': '201002021', 'Name': "Waterwyrm's Sphere", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[Mercury's Trial]]"}, {'Id': '201002022', 'Name': "Waterwyrm's Greatsphere", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[High Mercury's Trial]]"}, {'Id': '201002031', 'Name': "Windwyrm's Sphere", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[Midgardsormr's Trial]]"}, {'Id': '201002032', 'Name': "Windwyrm's Greatsphere", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[High Midgardsormr's Trial]]"}, {'Id': '201002041', 'Name': "Lightwyrm's Sphere", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Jupiter's Trial]]"}, {'Id': '201002042', 'Name': "Lightwyrm's Greatsphere", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;&lt;/span&gt; [[High Jupiter's Trial]]"}, {'Id': '201002051', 'Name': "Shadowwyrm's Sphere", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Zodiark's Trial]]"}, {'Id': '201002052', 'Name': "Shadowwyrm's Greatsphere", 'Obtain': "* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;&lt;/span&gt; [[High Zodiark's Trial]]"}, {'Id': '201005001', 'Name': 'Talonstone', 'Obtain': "* [[Event Quests#Advanced Dragon Trials|Advanced Dragon Trials]]\n* [[Dragon's Roost|Dragon Thank-You Gift]]\n* [[Dragon's_Roost#Bond_Experience|Dragon Bond Milestone Reward]] for levels 10 and 25\n* [[Item Summoning]]\n* [[Shop#Weekly|Shop]] - &lt;span style=&quot;display:inline-block;&quot;&gt;[[File:Icon_Diamantium.png|19px|link=Diamantium]] [[Diamantium]]&lt;/span&gt; 30 (Weekly limit of 10)"}, {'Id': '201007001', 'Name': 'Damascus Crystal', 'Obtain': '* [[Events]]\n* Unlocking item node in the 5th circle of the Mana Circle\n* [[Shop#Void Battles|Void Battles Treasure Trade]]'}, {'Id': '201008001', 'Name': 'Looking Glass', 'Obtain': '* Facility [[Events]] rewards'}, {'Id': '201009001', 'Name': 'Dyrenell Aes', 'Obtain': '* [[Event Quests#Imperial Onslaught|The Imperial Onslaught]]'}, {'Id': '201009002', 'Name': 'Dyrenell Argenteus', 'Obtain': '* [[Event Quests#Imperial Onslaught|The Imperial Onslaught]]'}, {'Id': '201009003', 'Name': 'Dyrenell Aureus', 'Obtain': '* [[Event Quests#Imperial Onslaught|The Imperial Onslaught]] (Master / Expert)'}, {'Id': '201010011', 'Name': 'Vermilion Insignia', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Battle at Mount Adolla]] (Master / Expert / Standard)\n* [[Events]]'}, {'Id': '201010012', 'Name': 'Royal Vermilion Insignia', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Battle at Mount Adolla]] (Master)\n* [[Events]]'}, {'Id': '201010021', 'Name': 'Azure Insignia', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[Battle at Myriage Lake]] (Master / Expert / Standard)\n* [[Events]]'}, {'Id': '201010022', 'Name': 'Royal Azure Insignia', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[Battle at Myriage Lake]] (Master)\n* [[Events]]'}, {'Id': '201010031', 'Name': 'Jade Insignia', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[Battle in Rovetelle Forest]] (Master / Expert / Standard)\n* [[Events]]'}, {'Id': '201010032', 'Name': 'Royal Jade Insignia', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[Battle in Rovetelle Forest]] (Master)\n* [[Events]]'}, {'Id': '201010041', 'Name': 'Amber Insignia', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Battle in the Dornith Mountains]] (Master / Expert / Standard)\n* [[Events]]'}, {'Id': '201010042', 'Name': 'Royal Amber Insignia', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Battle in the Dornith Mountains]] (Master)\n* [[Events]]'}, {'Id': '201010051', 'Name': 'Violet Insignia', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Battle at the Wartarch Ruins]] (Master / Expert / Standard)\n* [[Events]]'}, {'Id': '201010052', 'Name': 'Royal Violet Insignia', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Battle at the Wartarch Ruins]] (Master)\n* [[Events]]'}, {'Id': '201011001', 'Name': 'Sunlight Ore', 'Obtain': "* [[Events]]\n* [[Dragon's_Roost#Bond_Experience|Dragon Bond Milestone Reward]] for level 30"}, {'Id': '201012001', 'Name': 'Golden Fragment', 'Obtain': '* [[Events]]'}, {'Id': '201014001', 'Name': 'Void Leaf', 'Obtain': '*[[Event Quests#Void Battles|Void Battles]]\n*[[Treasure Trade]]'}, {'Id': '201014002', 'Name': 'Void Seed', 'Obtain': '*[[Event Quests#Void Battles|Void Battles]]'}, {'Id': '201015001', 'Name': 'Twinkling Grains', 'Obtain': '* [[Events]]'}, {'Id': '202001001', 'Name': 'Iron Ore', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[Windmaul Ruins]] (Standard / Beginner)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Battle at Mount Adolla]] (Standard / Beginner)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Battle in the Dornith Mountains]] (Standard / Beginner)\n* [[Events]]\n* [[Campaign Quests|Quests]]\n* [[Item Summoning]]\n* [[Shop#Upgrade Essentials|Upgrade Essentials]]\n* [[Shop#Treasure Trade|Treasure Trade]]'}, {'Id': '202001002', 'Name': 'Granite', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[Windmaul Ruins]] (Expert / Standard)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Battle at Mount Adolla]] (Master / Expert / Standard)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Battle in the Dornith Mountains]] (Master / Expert / Standard)\n* [[Events]]\n* [[Campaign Quests|Quests]]\n* [[Item Summoning]]\n* [[Shop#Upgrade Essentials|Upgrade Essentials]]\n* [[Shop#Treasure Trade|Treasure Trade]]'}, {'Id': '202001003', 'Name': 'Meteorite', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[Windmaul Ruins]] (Expert)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Battle at Mount Adolla]] (Master / Expert / Standard)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Battle in the Dornith Mountains]] (Master / Expert / Standard)\n* [[Events]]\n* [[Campaign Quests|Quests]]\n* [[Item Summoning]]\n* [[Shop#Treasure Trade|Treasure Trade]]'}, {'Id': '202002001', 'Name': "Fiend's Claw", 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Flamehowl Ruins]] (Standard / Beginner)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Lightsunder Ruins]] (Standard / Beginner)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[Battle at Myriage Lake]] (Standard / Beginner)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Battle at the Wartarch Ruins]] (Standard / Beginner)\n* [[Events]]\n* [[Item Summoning]]\n* [[Shop#Upgrade Essentials|Upgrade Essentials]]\n* [[Shop#Treasure Trade|Treasure Trade]]'}, {'Id': '202002002', 'Name': "Fiend's Horn", 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Flamehowl Ruins]] (Expert / Standard)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Lightsunder Ruins]] (Expert / Standard)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[Battle at Myriage Lake]] (Master / Expert / Standard)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Battle at the Wartarch Ruins]] (Master / Expert / Standard)\n* [[Campaign_Quests#Chapter_2|Chapter 2]] (Normal / Hard)\n* [[Campaign_Quests#Chapter_5|Chapter 5]] (Normal / Hard)\n* [[Events]]\n* [[Item Summoning]]\n* [[Shop#Upgrade Essentials|Upgrade Essentials]]\n* [[Shop#Treasure Trade|Treasure Trade]]'}, {'Id': '202002003', 'Name': "Fiend's Eye", 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Flamehowl Ruins]] (Expert)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Lightsunder Ruins]] (Expert)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[Battle at Myriage Lake]] (Expert)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Battle at the Wartarch Ruins]] (Expert)\n* [[Events]]\n* [[Item Summoning]]\n* [[Shop#Treasure Trade|Treasure Trade]]'}, {'Id': '202003001', 'Name': "Bat's Wing", 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[Waterscour Ruins]] (Standard / Beginner)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Shadowsteep Ruins]] (Standard / Beginner)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[Battle in Rovetelle Forest]] (Standard / Beginner)\n* [[Campaign_Quests#Chapter_3|Chapter 3]] (Normal / Hard)\n* [[Campaign_Quests#Chapter_6|Chapter 6]] (Normal)\n* [[Events]]\n* [[Item Summoning]]\n* [[Shop#Upgrade Essentials|Upgrade Essentials]]\n* [[Shop#Treasure Trade|Treasure Trade]]'}, {'Id': '202003002', 'Name': "Ancient Bird's Feather", 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[Waterscour Ruins]] (Expert / Standard)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Shadowsteep Ruins]] (Expert / Standard)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[Battle in Rovetelle Forest]] (Master / Expert / Standard)\n* [[Events]]\n* [[Item Summoning]]\n* [[Shop#Upgrade Essentials|Upgrade Essentials]]\n* [[Shop#Treasure Trade|Treasure Trade]]'}, {'Id': '202003003', 'Name': 'Bewitching Wings', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[Waterscour Ruins]] (Expert)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Shadowsteep Ruins]] (Expert)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[Battle in Rovetelle Forest]] (Master / Expert)\n* [[Events]]\n* [[Campaign Quests|Quests]]\n* [[Item Summoning]]\n* [[Shop#Treasure Trade|Treasure Trade]]'}, {'Id': '202004001', 'Name': 'Light Metal', 'Obtain': '* [[Event_Quests#Dragon_Trials|Dragon Trials]] (Expert / Standard / Beginner)\n* [[Campaign Quests|Chapters 1-5]] (Normal)\n* [[Events]]\n* [[Item Summoning]]\n* [[Shop#Upgrade Essentials|Upgrade Essentials]]'}, {'Id': '202004002', 'Name': 'Abyss Stone', 'Obtain': '* [[Campaign Quests|Quests]]\n* [[Event_Quests#Dragon_Trials|Dragon Trials]] (Master / Expert)\n* [[Item Summoning]]\n* [[Shop#Upgrade Essentials|Upgrade Essentials]]'}, {'Id': '202004003', 'Name': 'Crimson Core', 'Obtain': '* [[Event_Quests#Dragon_Trials|Dragon Trials]] (Master)\n* [[Event_Quests#Advanced_Dragon_Trials|Advanced Dragon Trials]] (Prelude)\n* [[Campaign Quests|Quests]]\n* Quests - Rare Drop (Level 3 Monster)\n* [[Item Summoning]]'}, {'Id': '202004004', 'Name': 'Twinkling Sand', 'Obtain': '* 4 per [[:Category:Raid Events|Raid Event]] (6)\n* 3 per [[:Category:Facility Events|Facility Event]] (6)\n* 3 per [[:Category:Story Events|Story Event]] (1)\n* Total: 45 via event rewards\n*[[Events]] - Rare drops'}, {'Id': '202005011', 'Name': 'Sword Tablet', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[Battle in Rovetelle Forest]] (Master / Expert / Standard)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Battle in the Dornith Mountains]] (Master / Expert / Standard)\n* [[Events]]'}, {'Id': '202005021', 'Name': 'Blade Tablet', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Battle at Mount Adolla]] (Master / Expert / Standard)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Battle in the Dornith Mountains]] (Master / Expert / Standard)\n* [[Events]]'}, {'Id': '202005031', 'Name': 'Dagger Tablet', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[Battle in Rovetelle Forest]] (Master / Expert / Standard)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Battle in the Dornith Mountains]] (Master / Expert / Standard)\n* [[Events]]'}, {'Id': '202005041', 'Name': 'Axe Tablet', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[Battle at Myriage Lake]] (Master / Expert / Standard)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Battle in the Dornith Mountains]] (Master / Expert / Standard)\n* [[Events]]'}, {'Id': '202005051', 'Name': 'Lance Tablet', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Battle at Mount Adolla]] (Master / Expert / Standard)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Battle at the Wartarch Ruins]] (Master / Expert / Standard)\n* [[Events]]'}, {'Id': '202005061', 'Name': 'Bow Tablet', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[Battle at Myriage Lake]] (Master / Expert / Standard)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Battle at the Wartarch Ruins]] (Master / Expert / Standard)\n* [[Events]]'}, {'Id': '202005071', 'Name': 'Wand Tablet', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Battle at Mount Adolla]] (Master / Expert / Standard)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Battle at the Wartarch Ruins]] (Master / Expert / Standard)\n* [[Events]]'}, {'Id': '202005081', 'Name': 'Staff Tablet', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[Battle at Myriage Lake]] (Master / Expert / Standard)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[Battle in Rovetelle Forest]] (Master / Expert / Standard)\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Battle at the Wartarch Ruins]] (Master / Expert / Standard)\n* [[Events]]'}, {'Id': '203001001', 'Name': "Snack-o'-Lantern", 'Obtain': '* Acquire these from quests in the &quot;[[Trick or Treasure!]]&quot; event\n*[[Treasure Trade]]'}, {'Id': '203002001', 'Name': 'Windwhistle Grass', 'Obtain': '* Acquire these from quests in the &quot;[[A Wish to the Winds]]&quot; event\n*[[Treasure Trade]]'}, {'Id': '203003001', 'Name': 'Astral Ornament', 'Obtain': '* Acquire these from quests in the &quot;[[The Miracle of Dragonyule]]&quot; event\n*[[Treasure Trade]]'}, {'Id': '203004001', 'Name': 'Tent Canvas', 'Obtain': '* Acquire these from quests in the &quot;[[Dream Big Under the Big Top\u200e]]&quot; event\n*[[Treasure Trade]]'}, {'Id': '203005001', 'Name': 'Arcane Tome', 'Obtain': '*Acquire these from quests in the &quot;[[The Accursed Archives]]&quot; event\n*[[Treasure Trade]]'}, {'Id': '203006001', 'Name': 'Papier-mâché', 'Obtain': '*Acquire these from quests in the &quot;[[The Hunt for Harmony\u200e\u200e]]&quot; event\n*[[Treasure Trade]]'}, {'Id': '204001001', 'Name': 'Solid Fungus', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Wandering Shroom Strike]]\n* [[Treasure Trade]]'}, {'Id': '204001002', 'Name': 'Shiny Spore', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Light.png|19px|middle|link=]]&lt;/span&gt; [[Wandering Shroom Strike]]\n* [[Treasure Trade]]'}, {'Id': '204002001', 'Name': 'Goblin Thread', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[Frost Hermit Strike]]\n* [[Treasure Trade]]'}, {'Id': '204002002', 'Name': 'Aromatic Wood', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Water.png|19px|middle|link=]]&lt;/span&gt; [[Frost Hermit Strike]]\n* [[Treasure Trade]]'}, {'Id': '204003001', 'Name': 'Steel Slab', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Steel Golem Strike]]\n* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Obsidian Golem Strike]]\n* [[Treasure Trade]]'}, {'Id': '204003002', 'Name': 'Golem Core', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Steel Golem Strike]]\n* [[Treasure Trade]]'}, {'Id': '204004001', 'Name': 'Great Feather', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[Void Zephyr Strike]]\n* [[Treasure Trade]]'}, {'Id': '204004002', 'Name': 'Zephyr Rune', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Wind.png|19px|middle|link=]]&lt;/span&gt; [[Void Zephyr Strike]]\n* [[Treasure Trade]]'}, {'Id': '204005001', 'Name': 'Raging Fang', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Raging Manticore Strike]]\n* [[Treasure Trade]]'}, {'Id': '204005002', 'Name': 'Raging Tail', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Raging Manticore Strike]]\n* [[Treasure Trade]]'}, {'Id': '204006001', 'Name': 'Old Cloth', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Blazing Ghost Strike]]\n* [[Treasure Trade]]'}, {'Id': '204006002', 'Name': 'Floating Red Cloth', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Blazing Ghost Strike]]\n* [[Treasure Trade]]'}, {'Id': '204006003', 'Name': 'Otherworldly Lantern', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Blazing Ghost Strike]]\n* [[Treasure Trade]]'}, {'Id': '204007001', 'Name': 'Obsidian Slab', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Obsidian Golem Strike]]\n* [[Treasure Trade]]'}, {'Id': '204007002', 'Name': 'Dark Core', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Shadow.png|19px|middle|link=]]&lt;/span&gt; [[Obsidian Golem Strike]]\n* [[Treasure Trade]]'}, {'Id': '204008001', 'Name': 'Blazing Horn', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Void Agni Strike]]\n* [[Treasure Trade]]'}, {'Id': '204008002', 'Name': 'Blazing Ember', 'Obtain': '* &lt;span style=&quot;display:inline-block;vertical-align:middle;margin:-7px 2px 0 -1px&quot;&gt;[[File:Icon Element Flame.png|19px|middle|link=]]&lt;/span&gt; [[Void Agni Strike]]\n* [[Treasure Trade]]'}, {'Id': '2040101', 'Name': 'Peregrine Blazon', 'Obtain': '* Raid Event Boss Quests\n* Raid Event Sub Boss Quests\n*Emblem Rewards ([[Events]])'}, {'Id': '2040102', 'Name': 'Bronze Emblem', 'Obtain': '* Raid Event Boss Quest (Beginner)\n* Raid Event Sub Boss Quests'}, {'Id': '2040103', 'Name': 'Silver Emblem', 'Obtain': '* Raid Event Boss Quest (Beginner / Standard / Expert)'}, {'Id': '2040104', 'Name': 'Gold Emblem', 'Obtain': '* Raid Event Boss Quests (Standard / Expert / Special)'}, {'Id': '2040105', 'Name': 'Otherworld Fragment', 'Obtain': '* Raid Event Sub Boss Quests\n* Emblem Rewards ([[Events]])'}, {'Id': '2080101', 'Name': 'Tricker Treats', 'Obtain': '* Acquire these from quests in the &quot;[[Trick or Treasure!]]&quot; event.'}, {'Id': '2080102', 'Name': 'Jack Chocolates', 'Obtain': '* Acquire these from quests in the &quot;[[Trick or Treasure!]]&quot; event:\n** Daily battles\n** Boss battles\n** Extra boss battles\n** Challenge battles'}, {'Id': '2080103', 'Name': 'Candy Basket', 'Obtain': '* Acquire these from quests in the &quot;[[Trick or Treasure!]]&quot; event:\n** Extra boss battles\n** Challenge battles'}, {'Id': '2080201', 'Name': 'Divine Gales', 'Obtain': '* Acquire these from quests in the &quot;[[A Wish to the Winds]]&quot; event.'}, {'Id': '2080202', 'Name': 'Friendship Bracelet', 'Obtain': '* Acquire these from quests in the &quot;[[A Wish to the Winds]]&quot; event:\n** Daily battles\n** Boss battles\n** Extra boss battles\n** Challenge battles'}, {'Id': '2080203', 'Name': 'Wind Chime', 'Obtain': '* Acquire these from quests in the &quot;[[A Wish to the Winds]]&quot; event:\n** Extra boss battles\n** Challenge battles'}, {'Id': '2080301', 'Name': 'Holiday Cheer', 'Obtain': '* Acquire these from quests in the &quot;[[The Miracle of Dragonyule]]&quot; event.'}, {'Id': '2080302', 'Name': 'Gingerbread Man', 'Obtain': '* Acquire these from quests in the &quot;[[The Miracle of Dragonyule]]&quot; event:\n** Daily battles\n** Boss battles\n** Extra boss battles\n** Challenge battles'}, {'Id': '2080303', 'Name': 'Dragonyule Wreath', 'Obtain': '* Acquire these from quests in the &quot;[[The Miracle of Dragonyule]]&quot; event:\n** Extra boss battles\n** Challenge battles'}, {'Id': '2080401', 'Name': 'Renown', 'Obtain': '*Acquire these from quests in the &quot;[[Dream Big Under the Big Top]]&quot; event.'}, {'Id': '2080402', 'Name': 'Big Top Balloons', 'Obtain': '* Acquire these from quests in the &quot;[[Dream Big Under the Big Top]]&quot; event:\n** Daily battles\n** Boss battles\n** Extra boss battles\n** Challenge battles'}, {'Id': '2080403', 'Name': 'Colorful Bouquet', 'Obtain': '* Acquire these from quests in the &quot;[[Dream Big Under the Big Top]]&quot; event:\n** Extra boss battles\n** Challenge battles'}, {'Id': '2080601', 'Name': 'Forbidden Knowledge', 'Obtain': '*Acquire these from quests in the &quot;[[The Accursed Archives]]&quot; event.'}, {'Id': '2080602', 'Name': 'Prudent Bookmark', 'Obtain': '* Acquire these from quests in the &quot;[[The Accursed Archives]]&quot; event:\n** Boss battles\n** Extra boss battles\n** Challenge battles\n* [[Treasure Trade]]'}, {'Id': '2080603', 'Name': 'Divulgent Lens', 'Obtain': '* Acquire these from quests in the &quot;[[The Accursed Archives]]&quot; event:\n** Extra boss battles\n** Challenge battles\n* [[Treasure Trade]]'}, {'Id': '2080701', 'Name': 'Eggsploration Points', 'Obtain': '*Acquire these from quests in the &quot;[[The Hunt for Harmony]]&quot; event.'}, {'Id': '2080702', 'Name': 'Woodland Herbs', 'Obtain': '* Acquire these from quests in the &quot;[[The Hunt for Harmony\u200e\u200e]]&quot; event:\n** Boss battles\n** Extra boss battles\n** Challenge battles\n* [[Treasure Trade]]'}, {'Id': '2080703', 'Name': 'Mushroom Medley', 'Obtain': '* Acquire these from quests in the &quot;[[The Hunt for Harmony\u200e\u200e]]&quot; event:\n** Extra boss battles\n** Challenge battles\n* [[Treasure Trade]]'}, {'Id': '2130101', 'Name': 'Ravishing Rose', 'Obtain': "*Obtain these from any active quest during the &quot;[[Valentine's Confections]]&quot; event."}, {'Id': '2140101', 'Name': 'Badge', 'Obtain': '* Collect these in the &quot;[[Fire Emblem: Lost Heroes\u200e\u200e]]&quot; event.'}, {'Id': '2140102', 'Name': 'Great Badge', 'Obtain': '* Collect these in the &quot;[[Fire Emblem: Lost Heroes\u200e\u200e]]&quot; event.'}, {'Id': '2140103', 'Name': 'Valor', 'Obtain': 'Collect this in the [[Fire Emblem: Lost Heroes]] event.'}];
+materials = [
+  {
+    "Id": "104001001",
+    "Name": "Rainbow Orb",
+    "Description": "A gem that shines every color of the rainbow.",
+    "Obtain": ["Elemental_Ruins"],
+    "Difficulty": ["Expert"]
+  },
+  {
+    "Id": "104001011",
+    "Name": "Flame Orb",
+    "Description": "A gem that contains the power of flame.",
+    "Obtain": ["Flamehowl_Ruins"],
+    "Difficulty": []
+  },
+  {
+    "Id": "104001012",
+    "Name": "Blaze Orb",
+    "Description": "A gem that courses with the power of flame.",
+    "Obtain": ["Flamehowl_Ruins"],
+    "Difficulty": []
+  },
+  {
+    "Id": "104001013",
+    "Name": "Inferno Orb",
+    "Description": "A gem that pulses with the power of flame.",
+    "Obtain": ["Flamehowl_Ruins"],
+    "Difficulty": ["Expert / Standard"]
+  },
+  {
+    "Id": "104001021",
+    "Name": "Water Orb",
+    "Description": "A gem that contains the power of water.",
+    "Obtain": ["Waterscour_Ruins"],
+    "Difficulty": []
+  },
+  {
+    "Id": "104001022",
+    "Name": "Stream Orb",
+    "Description": "A gem that courses with the power of water.",
+    "Obtain": ["Waterscour_Ruins"],
+    "Difficulty": []
+  },
+  {
+    "Id": "104001023",
+    "Name": "Deluge Orb",
+    "Description": "A gem that pulses with the power of water.",
+    "Obtain": ["Waterscour_Ruins"],
+    "Difficulty": ["Expert / Standard"]
+  },
+  {
+    "Id": "104001031",
+    "Name": "Wind Orb",
+    "Description": "A gem that contains the power of wind.",
+    "Obtain": ["Windmaul_Ruins"],
+    "Difficulty": []
+  },
+  {
+    "Id": "104001032",
+    "Name": "Storm Orb",
+    "Description": "A gem that courses with the power of wind.",
+    "Obtain": ["Windmaul_Ruins"],
+    "Difficulty": []
+  },
+  {
+    "Id": "104001033",
+    "Name": "Maelstrom Orb",
+    "Description": "A gem that pulses with the power of wind.",
+    "Obtain": ["Windmaul_Ruins"],
+    "Difficulty": ["Expert / Standard"]
+  },
+  {
+    "Id": "104001041",
+    "Name": "Light Orb",
+    "Description": "A gem that contains the power of light.",
+    "Obtain": ["Lightsunder_Ruins"],
+    "Difficulty": []
+  },
+  {
+    "Id": "104001042",
+    "Name": "Radiance Orb",
+    "Description": "A gem that courses with the power of light.",
+    "Obtain": ["Lightsunder_Ruins"],
+    "Difficulty": []
+  },
+  {
+    "Id": "104001043",
+    "Name": "Refulgence Orb",
+    "Description": "A gem that pulses with the power of light.",
+    "Obtain": ["Lightsunder_Ruins"],
+    "Difficulty": ["Expert / Standard"]
+  },
+  {
+    "Id": "104001051",
+    "Name": "Shadow Orb",
+    "Description": "A gem that contains the power of shadow.",
+    "Obtain": ["Shadowsteep_Ruins"],
+    "Difficulty": []
+  },
+  {
+    "Id": "104001052",
+    "Name": "Nightfall Orb",
+    "Description": "A gem that courses with the power of shadow.",
+    "Obtain": ["Shadowsteep_Ruins"],
+    "Difficulty": []
+  },
+  {
+    "Id": "104001053",
+    "Name": "Nether Orb",
+    "Description": "A gem that pulses with the power of shadow.",
+    "Obtain": ["Shadowsteep_Ruins"],
+    "Difficulty": ["Expert / Standard"]
+  },
+  {
+    "Id": "104002011",
+    "Name": "Flamewyrm's Scale",
+    "Description": "A small measure of the Flamewyrm's power.",
+    "Obtain": ["Brunhildas_Trial"],
+    "Difficulty": []
+  },
+  {
+    "Id": "104002012",
+    "Name": "Flamewyrm's Scaldscale",
+    "Description": "A fair measure of the Flamewyrm's power.",
+    "Obtain": ["Brunhildas_Trial"],
+    "Difficulty": ["Master / Expert"]
+  },
+  {
+    "Id": "104002021",
+    "Name": "Waterwyrm's Scale",
+    "Description": "A small measure of the Waterwyrm's power.",
+    "Obtain": ["Mercurys_Trial"],
+    "Difficulty": []
+  },
+  {
+    "Id": "104002022",
+    "Name": "Waterwyrm's Glistscale",
+    "Description": "A fair measure of the Waterwyrm's power.",
+    "Obtain": ["Mercurys_Trial"],
+    "Difficulty": ["Master / Expert"]
+  },
+  {
+    "Id": "104002031",
+    "Name": "Windwyrm's Scale",
+    "Description": "A small measure of the Windwyrm's power.",
+    "Obtain": ["Midgardsormrs_Trial"],
+    "Difficulty": []
+  },
+  {
+    "Id": "104002032",
+    "Name": "Windwyrm's Squallscale",
+    "Description": "A fair measure of the Windwyrm's power.",
+    "Obtain": ["Midgardsormrs_Trial"],
+    "Difficulty": ["Master / Expert"]
+  },
+  {
+    "Id": "104002041",
+    "Name": "Lightwyrm's Scale",
+    "Description": "A small measure of the Lightwyrm's power.",
+    "Obtain": ["Jupiters_Trial"],
+    "Difficulty": []
+  },
+  {
+    "Id": "104002042",
+    "Name": "Lightwyrm's Glowscale",
+    "Description": "A fair measure of the Lightwyrm's power.",
+    "Obtain": ["Jupiters_Trial"],
+    "Difficulty": ["Master / Expert"]
+  },
+  {
+    "Id": "104002051",
+    "Name": "Shadowwyrm's Scale",
+    "Description": "A small measure of the Shadowwyrm's power.",
+    "Obtain": ["Zodiarks_Trial"],
+    "Difficulty": []
+  },
+  {
+    "Id": "104002052",
+    "Name": "Shadowwyrm's Darkscale",
+    "Description": "A fair measure of the Shadowwyrm's power.",
+    "Obtain": ["Zodiarks_Trial"],
+    "Difficulty": ["Master / Expert"]
+  },
+  {
+    "Id": "201002011",
+    "Name": "Flamewyrm's Sphere",
+    "Description": "A vesselful of the Flamewyrm's power.",
+    "Obtain": ["Brunhildas_Trial"],
+    "Difficulty": []
+  },
+  {
+    "Id": "201002021",
+    "Name": "Waterwyrm's Sphere",
+    "Description": "A vesselful of the Waterwyrm's power.",
+    "Obtain": ["Mercurys_Trial"],
+    "Difficulty": []
+  },
+  {
+    "Id": "201002031",
+    "Name": "Windwyrm's Sphere",
+    "Description": "A vesselful of the Windwyrm's power.",
+    "Obtain": ["Midgardsormrs_Trial"],
+    "Difficulty": []
+  },
+  {
+    "Id": "201002032",
+    "Name": "Windwyrm's Greatsphere",
+    "Description": "A potent vesselful of the Windwyrm's power.",
+    "Obtain": ["HighMidgardsormrs_Trial"],
+    "Difficulty": []
+  },
+  {
+    "Id": "201002041",
+    "Name": "Lightwyrm's Sphere",
+    "Description": "A vesselful of the Lightwyrm's power.",
+    "Obtain": ["Jupiters_Trial"],
+    "Difficulty": []
+  },
+  {
+    "Id": "201002051",
+    "Name": "Shadowwyrm's Sphere",
+    "Description": "A vesselful of the Shadowwyrm's power.",
+    "Obtain": ["Zodiarks_Trial"],
+    "Difficulty": []
+  },
+  {
+    "Id": "201005001",
+    "Name": "Talonstone",
+    "Description": "A shining stone said to hold draconine power.",
+    "Obtain": ["HighMidgardsormrs_Trial"],
+    "Difficulty": []
+  },
+  {
+    "Id": "201009001",
+    "Name": "Dyrenell Aes",
+    "Description": "A bronze coin from the Dyrenell Empire.",
+    "Obtain": ["Imperial_Onslaught"],
+    "Difficulty": []
+  },
+  {
+    "Id": "201009002",
+    "Name": "Dyrenell Argenteus",
+    "Description": "A silver coin from the Dyrenell Empire.",
+    "Obtain": ["Imperial_Onslaught"],
+    "Difficulty": []
+  },
+  {
+    "Id": "201009003",
+    "Name": "Dyrenell Aureus",
+    "Description": "A gold coin from the Dyrenell Empire.",
+    "Obtain": ["Imperial_Onslaught"],
+    "Difficulty": ["Master / Expert"]
+  },
+  {
+    "Id": "201010011",
+    "Name": "Vermilion Insignia",
+    "Description": "An award that honors valor in the fight against\nthe empire.",
+    "Obtain": ["Mount_Adolla"],
+    "Difficulty": ["Master / Expert / Standard"]
+  },
+  {
+    "Id": "201010012",
+    "Name": "Royal Vermilion Insignia",
+    "Description": "An award that honors valor in the fight against the empire.",
+    "Obtain": ["Mount_Adolla"],
+    "Difficulty": ["Master"]
+  },
+  {
+    "Id": "201010021",
+    "Name": "Azure Insignia",
+    "Description": "A fine award that honors great heroism against the empire.",
+    "Obtain": ["Myriage_Lake"],
+    "Difficulty": ["Master / Expert / Standard"]
+  },
+  {
+    "Id": "201010022",
+    "Name": "Royal Azure Insignia",
+    "Description": "An award that honors valor in the fight against the empire.",
+    "Obtain": ["Myriage_Lake"],
+    "Difficulty": ["Master"]
+  },
+  {
+    "Id": "201010031",
+    "Name": "Jade Insignia",
+    "Description": "A fine award that honors great heroism against the empire.",
+    "Obtain": ["Rovetelle_Forest"],
+    "Difficulty": ["Master / Expert / Standard"]
+  },
+  {
+    "Id": "201010032",
+    "Name": "Royal Jade Insignia",
+    "Description": "An award that honors valor in the fight against the empire.",
+    "Obtain": ["Rovetelle_Forest"],
+    "Difficulty": ["Master"]
+  },
+  {
+    "Id": "201010041",
+    "Name": "Amber Insignia",
+    "Description": "A fine award that honors great heroism against the empire.",
+    "Obtain": ["Dornith_Mountains"],
+    "Difficulty": ["Master / Expert / Standard"]
+  },
+  {
+    "Id": "201010042",
+    "Name": "Royal Amber Insignia",
+    "Description": "An award that honors valor in the fight against the empire.",
+    "Obtain": ["Dornith_Mountains"],
+    "Difficulty": ["Master"]
+  },
+  {
+    "Id": "201010051",
+    "Name": "Violet  Insignia",
+    "Description": "A fine award that honors great heroism against the empire.",
+    "Obtain": ["Wartarch_Ruins"],
+    "Difficulty": ["Master / Expert / Standard"]
+  },
+  {
+    "Id": "201010052",
+    "Name": "Royal Violet Insignia",
+    "Description": "An award that honors valor in the fight against the empire.",
+    "Obtain": ["Wartarch_Ruins"],
+    "Difficulty": ["Master"]
+  },
+  {
+    "Id": "202001001",
+    "Name": "Iron Ore",
+    "Description": "An ore that is refined to make iron.",
+    "Obtain": ["Windmaul_Ruins", "Mount_Adolla", "Dornith_Mountains"],
+    "Difficulty": ["Standard / Beginner", "Standard / Beginner", "Standard / Beginner"]
+  },
+  {
+    "Id": "202001002",
+    "Name": "Granite",
+    "Description": "An exceptionally hard felsic rock.",
+    "Obtain": ["Windmaul_Ruins", "Mount_Adolla", "Dornith_Mountains"],
+    "Difficulty": ["Expert / Standard", "Master / Expert / Standard", "Master / Expert / Standard"]
+  },
+  {
+    "Id": "202001003",
+    "Name": "Meteorite",
+    "Description": "A metal made from refining meteoric iron.",
+    "Obtain": ["Windmaul_Ruins", "Mount_Adolla", "Dornith_Mountains"],
+    "Difficulty": ["Expert", "Master / Expert / Standard", "Master / Expert / Standard"]
+  },
+  {
+    "Id": "202002001",
+    "Name": "Fiend's Claw",
+    "Description": "A giant claw from a ferocious fiend.",
+    "Obtain": ["Flamehowl_Ruins", "Lightsunder_Ruins", "Myriage_Lake", "Wartarch_Ruins"],
+    "Difficulty": ["Standard / Beginner", "Standard / Beginner", "Standard / Beginner", "Standard / Beginner"]
+  },
+  {
+    "Id": "202002002",
+    "Name": "Fiend's Horn",
+    "Description": "A horn cut from a giant fiend.",
+    "Obtain": ["Flamehowl_Ruins", "Lightsunder_Ruins", "Myriage_Lake", "Wartarch_Ruins"],
+    "Difficulty": ["Expert / Standard", "Expert / Standard", "Master / Expert / Standard", "Master / Expert / Standard"]
+  },
+  {
+    "Id": "202002003",
+    "Name": "Fiend's Eye",
+    "Description": "A terrifying fiend's eyeball.",
+    "Obtain": ["Flamehowl_Ruins", "Lightsunder_Ruins", "Myriage_Lake", "Wartarch_Ruins"],
+    "Difficulty": ["Expert", "Expert", "Master / Expert / Standard", "Master / Expert / Standard"]
+  },
+  {
+    "Id": "202003001",
+    "Name": "Bat's Wing",
+    "Description": "A large wing, taken from a bat.",
+    "Obtain": ["Waterscour_Ruins", "Shadowsteep_Ruins", "Rovetelle_Forest"],
+    "Difficulty": ["Standard / Beginner", "Standard / Beginner", "Standard / Beginner"]
+  },
+  {
+    "Id": "202003002",
+    "Name": "Ancient Bird's Feather",
+    "Description": "A feather from a rare bird that has lived since ancient times.",
+    "Obtain": ["Waterscour_Ruins", "Shadowsteep_Ruins", "Rovetelle_Forest"],
+    "Difficulty": ["Expert / Standard", "Master / Expert / Standard", "Master / Expert / Standard"]
+  },
+  {
+    "Id": "202003003",
+    "Name": "Bewitching Wings",
+    "Description": "Wings from a butterfly that shine so brightly, they bewitch all who look at them.",
+    "Obtain": ["Waterscour_Ruins", "Shadowsteep_Ruins", "Rovetelle_Forest"],
+    "Difficulty": ["Expert / Standard", "Expert / Standard", "Master / Expert / Standard", "Master / Expert / Standard"]
+  },
+  {
+    "Id": "202004001",
+    "Name": "Light Metal",
+    "Description": "A shockingly light metal made using ancient technology.",
+    "Obtain": ["Dragon_Trials"],
+    "Difficulty": ["Expert / Standard / Beginner"]
+  },
+  {
+    "Id": "202004002",
+    "Name": "Abyss Stone",
+    "Description": "A beautiful stone that only forms deep under the sea.",
+    "Obtain": ["Dragon_Trials"],
+    "Difficulty": ["Master / Expert"]
+  },
+  {
+    "Id": "202004003",
+    "Name": "Crimson Core",
+    "Description": "A crystal dyed the color of blood.",
+    "Obtain": ["Dragon_Trials"],
+    "Difficulty": ["Master"]
+  },
+  {
+    "Id": "202004004",
+    "Name": "Twinkling Sand",
+    "Description": "Sand which glistens with all the beauty of the stars in the night sky.",
+    "Obtain": ["Events"],
+    "Difficulty": []
+  },
+  {
+    "Id": "202005011",
+    "Name": "Sword Tablet",
+    "Description": "Sand which glistens with all the beauty of the stars in the night sky.",
+    "Obtain": ["Rovetelle_Forest", "Dornith_Mountains"],
+    "Difficulty": ["Master / Expert / Standard", "Master / Expert / Standard"]
+  },
+  {
+    "Id": "202005021",
+    "Name": "Blade Tablet",
+    "Description": "A slab of stone with a blade carved into it.",
+    "Obtain": ["Mount_Adolla", "Dornith_Mountains"],
+    "Difficulty": ["Master / Expert / Standard", "Master / Expert / Standard"]
+  },
+  {
+    "Id": "202005031",
+    "Name": "Dagger Tablet",
+    "Description": "A slab of stone with a blade carved into it.",
+    "Obtain": ["Rovetelle_Forest", "Dornith_Mountains"],
+    "Difficulty": ["Master / Expert / Standard", "Master / Expert / Standard"]
+  },
+  {
+    "Id": "202005041",
+    "Name": "Axe Tablet",
+    "Description": "A slab of stone with a dagger carved into it.",
+    "Obtain": ["Myriage_Lake", "Dornith_Mountains"],
+    "Difficulty": ["Master / Expert / Standard", "Master / Expert / Standard"]
+  },
+  {
+    "Id": "202005051",
+    "Name": "Lance Tablet",
+    "Description": "A slab of stone with an lance carved into it.",
+    "Obtain": ["Mount_Adolla", "Wartarch_Ruins"],
+    "Difficulty": ["Master / Expert / Standard", "Master / Expert / Standard"]
+  },
+  {
+    "Id": "202005061",
+    "Name": "Bow Tablet",
+    "Description": "A slab of stone with a lance carved into it.",
+    "Obtain": ["Myriage_Lake", "Wartarch_Ruins"],
+    "Difficulty": ["Master / Expert / Standard", "Master / Expert / Standard"]
+  },
+  {
+    "Id": "202005071",
+    "Name": "Wand Tablet",
+    "Description": "A slab of stone with a wand carved into it.",
+    "Obtain": ["Mount_Adolla", "Wartarch_Ruins"],
+    "Difficulty": ["Master / Expert / Standard", "Master / Expert / Standard"]
+  },
+  {
+    "Id": "202005081",
+    "Name": "Staff Tablet",
+    "Description": "A slab of stone with a staff carved into it.",
+    "Obtain": ["Myriage_Lake", "Rovetelle_Forest", "Wartarch_Ruins"],
+    "Difficulty": ["Master / Expert / Standard", "Master / Expert / Standard", "Master / Expert / Standard"]
+  },
+  {
+    "Id": "Icon_Resource_Rupies",
+    "Name": "Rupies",
+    "Description": "One of the ingame currencies.",
+    "Obtain": ["Avenue_To_Fortune"],
+    "Difficulty": []
+  },
+  // new materials added for new weapons
+  {
+    Id: "204001001",
+    Name: "Solid Fungus",
+    Description: "",
+    Obtain: ["Wandering_Shroom_Strike"],
+    Difficulty: []
+  },
+  {
+    Id: "204001002",
+    Name: "Shiny Spore",
+    Description: "",
+    Obtain: ["Wandering_Shroom_Strike"],
+    Difficulty: []
+  },
+  {
+    Id: "204003001",
+    Name: "Steel Slab",
+    Description: "",
+    Obtain: ["Steel_Golem_Strike", "Obsidian_Golem_Strike"],
+    Difficulty: []
+  },
+  {
+    Id: "204003002",
+    Name: "Golem Core",
+    Description: "",
+    Obtain: ["Steel_Golem_Strike"],
+    Difficulty: []
+  },
+  {
+    Id: "204004001",
+    Name: "Great Feather",
+    Description: "",
+    Obtain: ["Void_Zephyr_Strike"],
+    Difficulty: []
+  },
+  {
+    Id: "204004002",
+    Name: "Zephyr Rune",
+    Description: "",
+    Obtain: ["Void_Zephyr_Strike"],
+    Difficulty: []
+  },
+  {
+    Id: "204005001",
+    Name: "Raging Fang",
+    Description: "",
+    Obtain: ["Raging_Manticore_Strike"],
+    Difficulty: []
+  },
+  {
+    Id: "204005002",
+    Name: "Raging Tail",
+    Description: "",
+    Obtain: ["Raging_Manticore_Strike"],
+    Difficulty: []
+  }, 
+  // jtbib: adding more void items! 5/18/2019
+  {
+    Id: "204006001",
+    Name: "Old Cloth",
+    Description: "A scrap torn from the cloth worn by a ghost. More than a little unsettling.",
+    Obtain: ["Blazing_Ghost_Strike"],
+    Difficulty: []
+  },
+  {
+    Id: "204006002",
+    Name: "Floating Red Cloth",
+    Description: "A scrap torn from the cloth worn by a ghost. At night it floats in the air, perhaps due to the sinister mana of its former wearer.",
+    Obtain: ["Blazing_Ghost_Strike"],
+    Difficulty: []
+  },
+  {
+    Id: "204006003",
+    Name: "Otherworldly Lantern",
+    Description: "A lantern with a ghost's flame trapped inside. On a quiet night, you can hear a faint, eerie laughter coming from within.",
+    Obtain: ["Blazing_Ghost_Strike"],
+    Difficulty: []
+  },
+  {
+    Id: "204007001",
+    Name: "Obsidian Slab",
+    Description: "A hard, heavy slab taken from a golem's body. Resembles an ordinary lump of obsidian, but contains shadow mana.",
+    Obtain: ["Obsidian_Golem_Strike"],
+    Difficulty: []
+  },
+  {
+    Id: "204007002",
+    Name: "Dark Core",
+    Description: "A stone with runes carved upon it, found at the center of a golem. The shadow mana it radiates is said to be what lets them move.",
+    Obtain: ["Obsidian_Golem_Strike"],
+    Difficulty: []
+  },
+  {
+    Id: "204008001",
+    Name: "Blazing Horn",
+    Description: "Agni's sturdy thoracic horn, containing the vast supply of mana needed to call upon his swords of fire.",
+    Obtain: ["Void_Agni_Strike"],
+    Difficulty: []
+  },
+  {
+    Id: "204008002",
+    Name: "Blazing Ember",
+    Description: "Said to be the source of Agni's power, this ember still retains some of his mana. Any fires it starts will spread insatiably.",
+    Obtain: ["Void_Agni_Strike"],
+    Difficulty: []
+  },
+]
